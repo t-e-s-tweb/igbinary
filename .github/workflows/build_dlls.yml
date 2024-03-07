@@ -16,9 +16,9 @@ jobs:
         shell: cmd
     strategy:
       matrix:
-          version: ["7.2", "7.3", "7.4", "8.0", "8.1", "8.2", "8.3"]
+          version: ["8.3"]
           arch: [x64]
-          ts: [nts, ts]
+          ts: [nts]
     runs-on: windows-latest
     steps:
       - name: Checkout igbinary
